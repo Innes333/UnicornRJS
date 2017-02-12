@@ -1,0 +1,125 @@
+header.active .nav-bar {
+  background-color: #000;
+  padding-top: 0;
+  border-bottom: 1px solid #ccc;
+}
+header.active .nav-bar:before, header.active .nav-bar:after {
+  display: none;
+}
+header.active .nav-bar ul {
+  height: 45px;
+  position: relative;
+  overflow: hidden;
+}
+header.active .nav-bar ul li img {
+  padding-top: 5px;
+  height: 56px;
+  width: auto;
+}
+header.active .nav-bar ul li a {
+  font-size: 13px;
+  color: #000;
+}
+
+.nav-bar {
+  padding-top: 30px;
+  color: #000;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header .menu:before {
+    position: absolute;
+    content: '';
+    width: 140px;
+    height: 90px;
+    z-index: 10;
+    top: 50%;
+    margin-left: -70px;
+    margin-top: -20px;
+    left: 50%;
+    background-image: url(/static/media/unicorn-logo.ce77d467.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.nav-bar ul {
+  text-align: center;
+}
+.nav-bar ul li {
+  width: 17%;
+}
+.nav-bar ul li a {
+  color: #000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: background 0.4s;
+}
+header.active .nav-bar {
+    background-color: #fff;
+    padding-top: 0;
+    border-bottom: 1px solid #ccc
+}
+header.active .nav-bar:after,
+header.active .nav-bar:before {
+    display: none
+}
+header.active .nav-bar ul {
+    height: 45px;
+    overflow: hidden
+}
+header.active .nav-bar ul li img {
+    padding-top: 5px;
+    height: 56px;
+    width: auto
+}
+header.active .nav-bar ul li a {
+    font-size: 13px;
+    color: #002882
+}
+.nav-bar {
+    padding-top: 30px;
+    color: #fff;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s
+}
+.nav-bar:after,
+.nav-bar:before {
+    position: absolute;
+    bottom: -10px;
+    width: 35%;
+    background-color: #FFF;
+    content: '';
+    height: 1px
+}
+.nav-bar:before {
+    left: 5%
+}
+.nav-bar:after {
+    right: 5%
+}
+.nav-bar ul {
+    text-align: center
+}
+.nav-bar ul li {
+    width: 17%
+}
+.nav-bar ul li a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 16px;
+    transition: background .4s;
+    -webkit-transition: background .4s;
+    -moz-transition: background .4s;
+    -o-transition: background .4s
+}
