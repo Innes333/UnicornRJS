@@ -1,8 +1,9 @@
+/*Main styles start*/
 main {
     position: relative
 }
 main {
-    background-image: url('../img/bg.jpg');
+    background-image: url('/img/bg.jpg');
     background-size: cover;
     background-attachment: fixed
 }
@@ -21,3 +22,10 @@ main .sub-heading {
     font-weight: 400;
     line-height: 30px;
 }
+main .content-block {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+/*Main end */
