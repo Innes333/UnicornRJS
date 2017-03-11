@@ -27,7 +27,7 @@ const menu = [
 	{
 		link: '#new-member',
 		label: 'Home'
-	}	
+	}
 ];
 const advertArray = [
 	{
@@ -40,7 +40,14 @@ const advertArray = [
 	{
 		pic: 'img/unic.png',
 		headline: 'Lorem ipsum dolor',
-		info: 'Lorem ipsum dolor sit amet, consectetur',
+		info: 'Lorem ipsum dolor sit amet, consectetur, Lorem ipsum dolor sit amet, consectetur adipisicing elit.Esse ut eos, pariatur est, qui nihil vitae officiis non laboriosam quia. Id quos minima quam voluptas possimus error fuga corrupti magnam!',
+		author: 'Johnny Depp',
+		avatar: '../img/depp.png'
+	},
+	{
+		pic: 'img/unic.png',
+		headline: 'Lorem ipsum dolor',
+		info: 'Lorem ipsum dolor sit amet, consectetur, Lorem ipsum dolor sit amet, consectetur adipisicing elit.Esse ut eos, pariatur est, qui nihil vitae officiis non laboriosam quia. Id quos minima quam voluptas possimus error fuga corrupti magnam!',
 		author: 'Johnny Depp',
 		avatar: '../img/depp.png'
 	}
